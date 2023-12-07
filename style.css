@@ -1,0 +1,122 @@
+body {
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main1{
+     display: flex;
+     justify-content: space-between;
+}
+#main1 img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin-top: 3rem;
+}
+.div1{
+    line-height: 0.1;
+}
+.div1 img{
+    height: 19rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.div1 h1{
+    color: white;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+    font-size: 4rem;
+}
+.div2{
+   padding: 30px 0px;
+}
+.div2 h1{
+    font-size: 7rem;
+    font-family: times new roman;
+    color: blue;
+}
+.div3{
+    display: flex;
+    margin-top: -90px;
+    color: blue;
+}
+.div3 h2{
+    font-size: 4rem;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+}
+.div3 h3{
+    background: green;
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+     text-align: center;
+     height: 4vh;
+     margin-top: 60px;
+}
+.div4{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+    text-align: center;
+}
+
+#img3, #img2{
+    width: 25rem;
+    height: 25rem;
+}
+.div6{
+    width: 10rem;
+    padding-top: 70px; 
+    height: 8rem;
+    font-size: 20px;
+    border-radius: 50%;
+    background: darkgreen;
+    color: white;
+    text-align: center;
+    margin-left: 25rem;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+    box-shadow: 5px 5px 9px 9px black;
+    animation: bounce 5s infinite;
+}
+.div5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.div7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
+.div8{
+    color: white;
+    text-align: center;
+}
+ul{
+    margin: 0px 400px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background: green;
+    animation: bounce 1s infinite;
+    padding: 20px;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
